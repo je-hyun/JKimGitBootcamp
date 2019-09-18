@@ -27,7 +27,10 @@ https://rogerdudler.github.io/git-guide/
 
 ## Exercise
 ### Exercise 1 (Basics).
-1. Create a github repository on the site.
+1. Create a github repository called hello-world on http://github.com <br />
+![step1](https://help.github.com/assets/images/help/repository/repo-create.png) <br />
+![step2](https://help.github.com/assets/images/help/repository/create-repository-name.png) <br />
+![step3](https://help.github.com/assets/images/help/repository/create-repository-init-readme.png) <br />
 2. Clone the github repository to your computer.
 ```
 $ git clone "URL_TO_THE_REPOSITORY"
