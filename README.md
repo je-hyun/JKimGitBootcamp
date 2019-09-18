@@ -32,6 +32,9 @@ https://rogerdudler.github.io/git-guide/
 ![step2](https://help.github.com/assets/images/help/repository/create-repository-name.png) <br />
 ![step3](https://help.github.com/assets/images/help/repository/create-repository-init-readme.png) <br />
 2. Clone the github repository to your computer.
+Find the github link here: <br />
+![clone_button](https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png) <br />
+![clone_url](https://help.github.com/assets/images/help/repository/https-url-clone.png) <br />
 ```
 $ git clone "URL_TO_THE_REPOSITORY" #Copy the repository locally
 $ cd hello-world #Move directories to hello world
