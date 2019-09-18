@@ -7,6 +7,11 @@ Git and Github exercises compiled and presented by Je Hyun Kim for CUS1151.
 * Windows - http://msysgit.github.io/
 * Linux - http://git-scm.com/book/en/Getting-Started-Installing-Git
 
+Check if git is installed correctly. Open your terminal and type the following command
+```
+$ git --version
+```
+
 ### Setting up for github
 First, create a github account at https://github.com if you don't have an account already.
 
@@ -22,8 +27,21 @@ https://rogerdudler.github.io/git-guide/
 
 ## Exercise
 ### Exercise 1 (Basics).
+1. Create a github repository on the site.
+2. Clone the github repository to your computer.
+```
+$ git clone "URL_TO_THE_REPOSITORY"
+$ cd "PROJECT_NAME"
+```
+Then, create a text file called "myFile.txt" in that location (using any text or code editor).
+```
+$ git status # View the state of the repo
+$ git add myFile.txt # Stage a file
+$ git commit -m "Commenting my first commit! :)"
+```
 
-### Exercise 2 (Contributing).
+
+### Exercise 2 (Collaborating).
 
 ## Adding other collaborators on github
 https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account
