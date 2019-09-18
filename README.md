@@ -39,9 +39,9 @@ $ cd hello-world #Move directories to hello world
 Then, create a text file called "myFile.txt" in that location (using any text or code editor) with some text in it (for example, Hello World!).
 ```
 $ git status #View the state of the repo
-$ git add myFile.txt #Stage a file
-$ git commit -m "Commenting my first commit!"
-$ git push origin master
+$ git add myFile.txt #Stage a file (ready to add to the repository)
+$ git commit -m "Commenting my first commit!" #Commit into the head of your local repository
+$ git push origin master #Push your changes onto the remote repository (on github.com)
 ```
 
 ### Exercise 2 (Collaborating).
