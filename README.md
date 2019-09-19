@@ -79,3 +79,4 @@ On github now, you will be able to merge the pull request. <br/>
 
 ## Other resources
 * Adding collaborators on github- https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account
+* Full collaborative workflow- http://www.eqqon.com/index.php/Collaborative_Github_Workflow
