@@ -70,8 +70,12 @@ $ git add -A
 $ git commit -m "Created feature1 branch"
 $ git push --set-upstream origin feature1
 ```
-Now go to your github repository and pull.
+Now go to your github repository, navigate to your branch and pull. <br />
 ![pull1](https://help.github.com/assets/images/help/pull_requests/branch-dropdown.png)
 ![pull2](https://help.github.com/assets/images/help/pull_requests/pull-request-start-review-button.png)
-## Adding other collaborators on github
-https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account
+<br/>
+On github now, you will be able to merge the pull request. <br/>
+![pull3](https://f.cloud.github.com/assets/676185/316946/e8c42c4c-984e-11e2-8a09-5a977652028a.png)
+
+## Other resources
+* Adding collaborators on github- https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account
