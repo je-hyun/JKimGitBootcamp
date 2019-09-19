@@ -77,6 +77,25 @@ Now go to your github repository, navigate to your branch and pull. <br />
 On github now, you will be able to merge the pull request. <br/>
 ![pull3](https://f.cloud.github.com/assets/676185/316946/e8c42c4c-984e-11e2-8a09-5a977652028a.png)
 
+### Exercise 3 (Contribute to this repo)
+Fork this repo on top of this page by pressing this button:<br/>
+![fork1](https://help.github.com/assets/images/help/repository/fork_button.jpg)<br/>
+Now, this repository is copied onto your own github account. Clone the forked version onto your computer
+```
+$ git clone "URL_TO_FORKED_VERSION"
+$ cd JKimGitBootcamp
+$ git remote add upstream https://github.com/je-hyun/JKimGitBootcamp.git #This line adds a link to the original version
+$ git branch addMyName
+$ git checkout addMyName
+```
+Create a file named after your own name (e.g. Your_Full_Name.txt) to that local git repository. Put the name of your favorite song or book in it.
+```
+$ git add "Your_Full_Name.txt"
+$ git commit -m "Add my favorite song."
+$ git pull upstream master
+$ git push origin master
+```
+Now, from github, you can make a pull request to the original repository.
 ## Other resources
 * Adding collaborators on github- https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account
 * Full collaborative workflow- http://www.eqqon.com/index.php/Collaborative_Github_Workflow
