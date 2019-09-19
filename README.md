@@ -32,9 +32,10 @@ https://rogerdudler.github.io/git-guide/
 ![step2](https://help.github.com/assets/images/help/repository/create-repository-name.png) <br />
 ![step3](https://help.github.com/assets/images/help/repository/create-repository-init-readme.png) <br />
 2. Clone the github repository to your computer.
-Find the github link here: <br />
+Find the link to your repository by clicking the following button: <br />
 ![clone_button](https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png) <br />
 ![clone_url](https://help.github.com/assets/images/help/repository/https-url-clone.png) <br />
+Copy the url to the github repository and use it in the following command:
 ```
 $ git clone "URL_TO_THE_REPOSITORY" #Copy the repository locally
 $ cd hello-world #Move directories to hello world
@@ -47,7 +48,30 @@ $ git commit -m "Commenting my first commit!" #Commit into the head of your loca
 $ git push origin master #Push your changes onto the remote repository (on github.com)
 ```
 
-### Exercise 2 (Collaborating).
-
+### Exercise 2 (Branching).
+```
+$ git branch #View all branches in repository
+$ git branch feature1 #Create a new branch
+$ git checkout feature1 #Switch branches
+```
+You've now created a branch called feature1. Make a new text file (name it something.txt) in the repository and save it.
+Now do this process to add and commit the changes:
+```
+$ git add something.txt
+$ git commit -m "Added something"
+```
+Now, swap back to the master branch and merge your feature1 to it.
+```
+$ git checkout master
+$ git pull
+$ git checkout feature1
+$ git merge master
+$ git add -A
+$ git commit -m "Created feature1 branch"
+$ git push --set-upstream origin feature1
+```
+Now go to your github repository and pull.
+![pull1](https://help.github.com/assets/images/help/pull_requests/branch-dropdown.png)
+![pull2](https://help.github.com/assets/images/help/pull_requests/pull-request-start-review-button.png)
 ## Adding other collaborators on github
 https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account
