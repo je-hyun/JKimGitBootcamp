@@ -96,12 +96,8 @@ $ git pull upstream master
 $ git push origin master
 ```
 Now, from github, you can make a pull request to the original repository.
-## Other resources
-* Git cheat sheet reference https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
-* Adding collaborators on github- https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account
-* Full collaborative workflow- http://www.eqqon.com/index.php/Collaborative_Github_Workflow
 
-## Most important commands
+## Summary
 ### Basic commands
 * git clone URL # Clones a remote repository
 * git status # Views which files were staged for changing
@@ -114,3 +110,8 @@ Now, from github, you can make a pull request to the original repository.
 * git branch BRANCHNAME # Create a new branch
 * git checkout BRANCHNAME # Swaps branches
 * git merge BRANCHNAME # merges another branch into the current one
+
+### Other resources
+* Git cheat sheet reference https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+* Adding collaborators on github- https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account
+* Full collaborative workflow- http://www.eqqon.com/index.php/Collaborative_Github_Workflow
