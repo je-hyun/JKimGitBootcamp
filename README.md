@@ -100,3 +100,17 @@ Now, from github, you can make a pull request to the original repository.
 * Git cheat sheet reference https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 * Adding collaborators on github- https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account
 * Full collaborative workflow- http://www.eqqon.com/index.php/Collaborative_Github_Workflow
+
+## Most important commands
+### Basic commands
+* git clone URL # Clones a remote repository
+* git status # Views which files were staged for changing
+* git add FILE # Adds a file to the repository
+* git commit -m "Comment" # Commits to local repository with comment
+* git pull origin master # Pulls changes from the remote
+* git push origin master # Pushes changes to the remote
+### Branching
+* git branch # View all branches
+* git branch BRANCHNAME # Create a new branch
+* git checkout BRANCHNAME # Swaps branches
+* git merge BRANCHNAME # merges another branch into the current one
