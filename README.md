@@ -97,5 +97,6 @@ $ git push origin master
 ```
 Now, from github, you can make a pull request to the original repository.
 ## Other resources
+* Git cheat sheet reference https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 * Adding collaborators on github- https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account
 * Full collaborative workflow- http://www.eqqon.com/index.php/Collaborative_Github_Workflow
